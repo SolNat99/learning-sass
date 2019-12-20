@@ -23,9 +23,45 @@
 /**
  * Grid
  */
+/**
+ * modules/mixins
+ * ---
+ */
 .hello {
-  color: #11f9;
+  /*color: $purple;*/
   font-family: "Nunito Sans", serif;
+}
+
+.daddy-box {
+  width: 100%;
+  height: 500px;
+  background-color: skyblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.baby-box {
+  width: 100px;
+  height: 100px;
+  background-color: orange;
+}
+
+.momma-box {
+  background-color: magenta;
+  width: 100%;
+  height: 700px;
+}
+.momma-box .baby-shark {
+  width: 100px;
+  height: 100px;
+  background-color: chartreuse;
+}
+
+.baby-shark {
+  width: 100px;
+  height: 100px;
+  background-color: midnightblue;
 }
 
 /*# sourceMappingURL=style.css.map */
